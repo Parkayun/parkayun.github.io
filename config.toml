@@ -1,0 +1,35 @@
+baseURL = "https://parkayun.kr"
+languageCode = "en-us"
+title = "Parkayun.kr"
+theme = "Hucore"
+copyright = "&copy; 2018 parkayun.kr"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "창업 이야기"
+keywords = ["startup", "스타트업"]
+author = "Ayun Park"
+sharingicons = true
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/Parkayun"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://linkedin.com/in/Parkayun"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/Parkayun"
+fa_icon = "fa-linkedin-square"
