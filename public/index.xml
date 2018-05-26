@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Parkayun.kr</title>
-    <link>https://parkayun.kr/</link>
+    <link>https://parkayun.kr/public/</link>
     <description>Recent content on Parkayun.kr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 parkayun.kr</copyright>
     
-	<atom:link href="https://parkayun.kr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parkayun.kr/public/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

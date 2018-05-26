@@ -1,4 +1,4 @@
-baseURL = "https://parkayun.kr"
+baseURL = "https://parkayun.kr/public/"
 languageCode = "en-us"
 title = "Parkayun.kr"
 theme = "Hucore"
