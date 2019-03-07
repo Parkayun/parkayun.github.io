@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://parkayun.kr/public/posts/contract-db.io%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/</loc>
-    <lastmod>2019-03-07T14:17:31+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://parkayun.kr/public/posts/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EB%AC%B8%EC%A0%9C%EC%A0%90%EA%B3%BC-%EB%8C%80%EC%B1%85/</loc>
     <lastmod>2018-12-31T01:06:07+09:00</lastmod>
   </url>
@@ -19,13 +14,13 @@
   
   <url>
     <loc>https://parkayun.kr/public/</loc>
-    <lastmod>2019-03-07T14:17:31+09:00</lastmod>
+    <lastmod>2018-12-31T01:06:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://parkayun.kr/public/posts/</loc>
-    <lastmod>2019-03-07T14:17:31+09:00</lastmod>
+    <lastmod>2018-12-31T01:06:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,23 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 parkayun.kr</copyright>
-    <lastBuildDate>Thu, 07 Mar 2019 14:17:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 01:06:07 +0900</lastBuildDate>
     
 	<atom:link href="https://parkayun.kr/public/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>contract-db.io 를 소개합니다.</title>
-      <link>https://parkayun.kr/public/posts/contract-db.io%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/</link>
-      <pubDate>Thu, 07 Mar 2019 14:17:31 +0900</pubDate>
-      
-      <guid>https://parkayun.kr/public/posts/contract-db.io%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/</guid>
-      <description>최근에 contract-db.io 라는 사이트를 개설하였습니다.
-주요한 블록체인 스마트 컨트랙트를 모으고 정리하고 분류하기 위함에 있어 만들었습니다.
-제가 과거 해킹 / 보안 분야를 접했을 때 exploit-db.com 이라는 사이트를 자주 접했습니다. 이 사이트는 보안 관련 취약점이 총망라된 사이트라고 볼 수 있습니다.
-스마트 컨트랙트 분야는 무엇보다 보안이 상당히 중요합니다. 그러나 앞서 말한 exploit-db.com 같이 레퍼런스를 한 곳에서 할 수 있는 곳을 접하기가 힘들어 시작하게 되었습니다.
-틈이 생길 때마다 잠깐 잠깐씩 하는 것이지만 데이터가 누적되고 축적되면 유의미해지리라 생각됩니다.</description>
-    </item>
     
     <item>
       <title>블록체인 문제점과 대책</title>
