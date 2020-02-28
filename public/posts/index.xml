@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Parkayun.kr</title>
@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 parkayun.kr</copyright>
-    <lastBuildDate>Thu, 07 Mar 2019 14:17:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:27:02 +0900</lastBuildDate>
     
 	<atom:link href="https://parkayun.kr/public/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>계획 2020</title>
+      <link>https://parkayun.kr/public/posts/%EA%B3%84%ED%9A%8D-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:27:02 +0900</pubDate>
+      
+      <guid>https://parkayun.kr/public/posts/%EA%B3%84%ED%9A%8D-2020/</guid>
+      <description>새 밀레니엄, 새 천 년, 새 시대, 새 사회를 20년이 지나 열기 위해 거창하기 제목을 지었다.
+그리고 세가지 계획을 세웠다.
+1. 블로그 글 월에 1회씩은 작성. 블로그에 글을 많이 적겠다는 내적 다짐은 글 리스트만 봐도 알 수 있다.
+2019년에 하고 싶은 건 많았고 그중 못한 게 많았다.
+결국 나 혼자 보겠지만, 누군가는 보고 안 하고 있으면 비웃겠지라는 심정으로 블로그를 이용하려고 한다.
+2. 비즈니스 찾고 실행하기 2019년에는 진짜 많은 서비스를 만들고 진짜 많이 접었다.</description>
+    </item>
     
     <item>
       <title>contract-db.io 를 소개합니다.</title>
@@ -18,11 +32,10 @@
       <pubDate>Thu, 07 Mar 2019 14:17:31 +0900</pubDate>
       
       <guid>https://parkayun.kr/public/posts/contract-db.io%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/</guid>
-      <description>최근에 contract-db.io 라는 사이트를 개설하였습니다.
+      <description>최근에 contract-db.io라는 사이트를 개설하였습니다.
 주요한 블록체인 스마트 컨트랙트를 모으고 정리하고 분류하기 위함에 있어 만들었습니다.
-제가 과거 해킹 / 보안 분야를 접했을 때 exploit-db.com 이라는 사이트를 자주 접했습니다. 이 사이트는 보안 관련 취약점이 총망라된 사이트라고 볼 수 있습니다.
-스마트 컨트랙트 분야는 무엇보다 보안이 상당히 중요합니다. 그러나 앞서 말한 exploit-db.com 같이 레퍼런스를 한 곳에서 할 수 있는 곳을 접하기가 힘들어 시작하게 되었습니다.
-틈이 생길 때마다 잠깐 잠깐씩 하는 것이지만 데이터가 누적되고 축적되면 유의미해지리라 생각됩니다.</description>
+제가 과거 해킹 / 보안 분야를 접했을 때 exploit-db.com이라는 사이트를 자주 접했습니다. 이 사이트는 보안 관련 취약점이 총망라된 사이트라고 볼 수 있습니다.스마트 컨트랙트 분야는 무엇보다 보안이 상당히 중요합니다. 그러나 앞서 말한 exploit-db.com 같이 레퍼런스를 한 곳에서 할 수 있는 곳을 접하기가 힘들어 시작하게 되었습니다.
+틈이 생길 때마다 잠깐 잠깐씩 하는 것이지만 데이터가 누적되고 축적되면 유의미해지리라 생각됩니다. 지금은 간단한 블로그 형태이지만, 나중에는 검색이나 필터 등 이것저것 기능을 갖춘 서비스 형태로 만들 생각도 있습니다.</description>
     </item>
     
     <item>
