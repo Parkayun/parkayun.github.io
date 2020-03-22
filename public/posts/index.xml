@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 parkayun.kr</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 00:24:22 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2020 13:37:17 +0900</lastBuildDate>
     
 	<atom:link href="https://parkayun.kr/public/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>맥사운드가 이상하게 작동할 때</title>
+      <link>https://parkayun.kr/public/posts/%EB%A7%A5-%EC%82%AC%EC%9A%B4%EB%93%9C-%EC%9D%B4%EC%83%81%ED%95%98%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0-%EB%95%8C/</link>
+      <pubDate>Sun, 22 Mar 2020 13:37:17 +0900</pubDate>
+      
+      <guid>https://parkayun.kr/public/posts/%EB%A7%A5-%EC%82%AC%EC%9A%B4%EB%93%9C-%EC%9D%B4%EC%83%81%ED%95%98%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0-%EB%95%8C/</guid>
+      <description>2019 맥북 프로 13인치를 사용하고 있다.
+어느순간부터 사운드가 이상하게 작동한다.
+ 음소거했는데 맥북에서 소리가 나옴 음소거했는데 외장 모니터에서 소리가 나옴 음소거를 안 했는데 소리가 안나옴 맥북에서 소리를 재생했는데 외장 모니터에서 소리가 나옴 이어폰을 연결했는데 맥북에서 소리가 나옴 이어폰을 연결했는데 외장 모니터에서 소리가 나옴  하드웨어 문제로 생각해서 수리를 예약하려고 보니깐 코로나19로 점부 중단이였다.
+그래서 그냥 참고 쓰다가 우연히 메모리 사용률을 봤는데 coreaudiod가 4GB 나 차지하고 있었다.
+이름부터 오디오라는 수상한 데몬 프로세스가 4GB나 먹고 있는게 말이되나&amp;hellip; 싶어서 찾아서 죽이고 다시 띄웠다.</description>
+    </item>
     
     <item>
       <title>점검 2020 (2월)</title>

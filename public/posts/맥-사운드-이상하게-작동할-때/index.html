@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="startup, 스타트업" name="keywords">
+<meta content="Ayun Park" name="author">
+<meta property="og:title" content="맥사운드가 이상하게 작동할 때 - Parkayun.kr">
+<meta property="og:url" content="https://parkayun.kr/public/posts/%EB%A7%A5-%EC%82%AC%EC%9A%B4%EB%93%9C-%EC%9D%B4%EC%83%81%ED%95%98%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0-%EB%95%8C/">
+<meta property="og:description" content="창업 이야기">
+<meta property="og:type" content="website" />
+<title>맥사운드가 이상하게 작동할 때 | Parkayun.kr</title>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<link rel="stylesheet" href="https://parkayun.kr/public//css/style.css">
+<link rel="shortcut icon" href="https://parkayun.kr/public//favicon.ico">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+
+</head>
+
+<body>
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://parkayun.kr/public/"><h1 class="title is-4">Parkayun.kr</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+          <a class="level-item" href="https://github.com/Parkayun" target="_blank">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="https://linkedin.com/in/Parkayun" target="_blank">
+            <span class="icon">
+              <i class="fa fa-linkedin-square"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="/index.xml" target="_blank">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">맥사운드가 이상하게 작동할 때</h1>
+    <h2 class="subtitle is-5">March 22, 2020 by Ayun Park</h2>
+    
+    <div class="content">
+      <p>2019 맥북 프로 13인치를 사용하고 있다.<br>
+어느순간부터 사운드가 이상하게 작동한다.</p>
+<ul>
+<li>음소거했는데 맥북에서 소리가 나옴</li>
+<li>음소거했는데 외장 모니터에서 소리가 나옴</li>
+<li>음소거를 안 했는데 소리가 안나옴</li>
+<li>맥북에서 소리를 재생했는데 외장 모니터에서 소리가 나옴</li>
+<li>이어폰을 연결했는데 맥북에서 소리가 나옴</li>
+<li>이어폰을 연결했는데 외장 모니터에서 소리가 나옴</li>
+</ul>
+<p>하드웨어 문제로 생각해서 수리를 예약하려고 보니깐 코로나19로 점부 중단이였다.<br>
+그래서 그냥 참고 쓰다가 우연히 메모리 사용률을 봤는데 coreaudiod가 4GB 나 차지하고 있었다.<br>
+이름부터 오디오라는 수상한 데몬 프로세스가 4GB나 먹고 있는게 말이되나&hellip; 싶어서 찾아서 죽이고 다시 띄웠다.<br>
+사운드가 제대로 작동한다.</p>
+<p>&hellip;;;<br>
+제발 좀.</p>
+<p>명령어 (터미널 열고 복사 붙여넣기)
+sudo killall coreaudiod &amp;&amp; sudo launchctl start com.apple.audio.coreaudiod</p>
+
+    </div>
+    
+        <div class="nav-left">
+    <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fparkayun.kr%2fpublic%2fposts%2f%25EB%25A7%25A5-%25EC%2582%25AC%25EC%259A%25B4%25EB%2593%259C-%25EC%259D%25B4%25EC%2583%2581%25ED%2595%2598%25EA%25B2%258C-%25EC%259E%2591%25EB%258F%2599%25ED%2595%25A0-%25EB%2595%258C%2f" title="Share on Facebook" target="_blank"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://plus.google.com/share?url=https%3a%2f%2fparkayun.kr%2fpublic%2fposts%2f%25EB%25A7%25A5-%25EC%2582%25AC%25EC%259A%25B4%25EB%2593%259C-%25EC%259D%25B4%25EC%2583%2581%25ED%2595%2598%25EA%25B2%258C-%25EC%259E%2591%25EB%258F%2599%25ED%2595%25A0-%25EB%2595%258C%2f" title="Share on Google+" target="_blank"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fparkayun.kr%2fpublic%2fposts%2f%25EB%25A7%25A5-%25EC%2582%25AC%25EC%259A%25B4%25EB%2593%259C-%25EC%259D%25B4%25EC%2583%2581%25ED%2595%2598%25EA%25B2%258C-%25EC%259E%2591%25EB%258F%2599%25ED%2595%25A0-%25EB%2595%258C%2f" title="Share on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://twitter.com/home?status=%eb%a7%a5%ec%82%ac%ec%9a%b4%eb%93%9c%ea%b0%80%20%ec%9d%b4%ec%83%81%ed%95%98%ea%b2%8c%20%ec%9e%91%eb%8f%99%ed%95%a0%20%eb%95%8c - https%3a%2f%2fparkayun.kr%2fpublic%2fposts%2f%25EB%25A7%25A5-%25EC%2582%25AC%25EC%259A%25B4%25EB%2593%259C-%25EC%259D%25B4%25EC%2583%2581%25ED%2595%2598%25EA%25B2%258C-%25EC%259E%2591%25EB%258F%2599%25ED%2595%25A0-%25EB%2595%258C%2f" title="Tweet this" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+    <a class="nav-item" href="http://www.reddit.com/submit?url=https%3a%2f%2fparkayun.kr%2fpublic%2fposts%2f%25EB%25A7%25A5-%25EC%2582%25AC%25EC%259A%25B4%25EB%2593%259C-%25EC%259D%25B4%25EC%2583%2581%25ED%2595%2598%25EA%25B2%258C-%25EC%259E%2591%25EB%258F%2599%25ED%2595%25A0-%25EB%2595%258C%2f&title=%eb%a7%a5%ec%82%ac%ec%9a%b4%eb%93%9c%ea%b0%80%20%ec%9d%b4%ec%83%81%ed%95%98%ea%b2%8c%20%ec%9e%91%eb%8f%99%ed%95%a0%20%eb%95%8c" title="Share on Reddit" target="_blank"><span class="fa fa-reddit-alien fa-2x" aria-hidden="true"></span></a>
+    
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; 2018 parkayun.kr</p>
+  </div>
+</section>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js" integrity="sha256-+bhVTaRmJ/c07eV80nU8gD2cBBF0rYkf1txqXlrbvb0=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/dockerfile.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
