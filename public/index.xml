@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 parkayun.kr</copyright>
-    <lastBuildDate>Sun, 22 Mar 2020 13:37:17 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 13:46:31 +0900</lastBuildDate>
     
 	<atom:link href="https://parkayun.kr/public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>개인정보 취약점 제보기</title>
+      <link>https://parkayun.kr/public/posts/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9-%E1%84%8E%E1%85%B1%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%B7-%E1%84%8C%E1%85%A6%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5/</link>
+      <pubDate>Sat, 04 Apr 2020 13:46:31 +0900</pubDate>
+      
+      <guid>https://parkayun.kr/public/posts/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9-%E1%84%8E%E1%85%B1%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%B7-%E1%84%8C%E1%85%A6%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5/</guid>
+      <description>재학하고 있는 학교 전산 시스템의 개인정보 노출 위험을 발견한 후기이다.
+취약점 개선을 위해 학교 전산 시스템 점검한다고 공지가 올라왔다.
+사실 최초 인지한 것은 작년 이맘때이다. 1년이 걸린 것이다.
+학번만 있으면 성적 등 개인정보를 알 수 있는 취약점이었다.
+작년에 제보한 취약점은 학교 이메일만 알면 주민번호를 알 수 있었다.
+이 취약점을 고쳤다고 연락을 작년 가을에 받았는데 바뻐서 최근에 확인해봤다.
+해보니 이제는 학번으로 성적을 알 수 있게 된 것이다.
+&amp;hellip;;;
+어이가 없어서 KISA에 제보하려고 지인한테 알아도 봤었는데 그냥 학교 커뮤니티에 글을 써서 공론화시켰다.</description>
+    </item>
     
     <item>
       <title>맥 사운드가 이상하게 작동할 때</title>
