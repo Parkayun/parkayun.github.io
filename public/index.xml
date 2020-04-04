@@ -14,10 +14,10 @@
     
     <item>
       <title>개인정보 취약점 제보기</title>
-      <link>https://parkayun.kr/public/posts/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9-%E1%84%8E%E1%85%B1%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%B7-%E1%84%8C%E1%85%A6%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5/</link>
+      <link>https://parkayun.kr/public/posts/privacy-exploit/</link>
       <pubDate>Sat, 04 Apr 2020 13:46:31 +0900</pubDate>
       
-      <guid>https://parkayun.kr/public/posts/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9-%E1%84%8E%E1%85%B1%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%B7-%E1%84%8C%E1%85%A6%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5/</guid>
+      <guid>https://parkayun.kr/public/posts/privacy-exploit/</guid>
       <description>재학하고 있는 학교 전산 시스템의 개인정보 노출 위험을 발견한 후기이다.
 취약점 개선을 위해 학교 전산 시스템 점검한다고 공지가 올라왔다.
 사실 최초 인지한 것은 작년 이맘때이다. 1년이 걸린 것이다.
