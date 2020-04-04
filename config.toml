@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Parkayun.kr"
 theme = "Hucore"
 copyright = "&copy; 2018 parkayun.kr"
+googleAnalytics = "UA-50744429-1"
 
 [taxonomies]
 tag = "tags"
