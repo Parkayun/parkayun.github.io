@@ -1,8 +1,8 @@
 baseURL = "https://parkayun.kr/public/"
 languageCode = "en-us"
 title = "Parkayun.kr"
-theme = "Hucore"
-copyright = "&copy; 2018 parkayun.kr"
+theme = "hugo-theme-cactus-plus"
+copyright = "&copy; 2018-2020 parkayun.kr"
 googleAnalytics = "UA-50744429-1"
 
 [taxonomies]
