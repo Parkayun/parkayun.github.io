@@ -13,6 +13,10 @@ if __name__ == '__main__':
     system('git add .')
     system('git commit -m "%s"' % input('commit message: '))
     git_hash = check_output(['git', 'rev-parse', 'HEAD']).decode()
-    system('git checkout %s public/' % git_hash)
+    files = check_output(['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', git_hash).decode()
+    system('git checkout master')
+    for f in files:
+        if f.startswith('public/'):
+            system('git checkout %s %s' % (git_hash, f))
     system('git push --all origin')
 
