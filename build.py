@@ -11,12 +11,15 @@ if __name__ == '__main__':
             n.write(o.read().replace('href="https://parkayun.kr/public/"', 'href="https://parkayun.kr/"'))
             n.truncate()
     system('git add .')
-    system('git commit -m "%s"' % input('commit message: '))
+    message = input('commit message: ')
+    system('git commit -m "%s"' % message)
     git_hash = check_output(['git', 'rev-parse', 'HEAD']).decode()
-    files = check_output(['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', git_hash).decode()
+    files = check_output(['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', git_hash]).decode()
     system('git checkout master')
     for f in files:
         if f.startswith('public/'):
             system('git checkout %s %s' % (git_hash, f))
+    system('git commit -m "%s"' % message) 
     system('git push --all origin')
+    system('git checkout real-master')
 
