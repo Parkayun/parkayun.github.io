@@ -13,13 +13,13 @@ if __name__ == '__main__':
     system('git add .')
     message = input('commit message: ')
     system('git commit -m "%s"' % message)
-    git_hash = check_output(['git', 'rev-parse', 'HEAD']).decode()
-    files = check_output(['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', git_hash]).decode()
+    git_hash = check_output(['git', 'rev-parse', 'HEAD']).decode().strip()
+    files = check_output(['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', git_hash]).decode().split()
     system('git checkout master')
     for f in files:
         if f.startswith('public/'):
+            print(f)
             system('git checkout %s %s' % (git_hash, f))
     system('git commit -m "%s"' % message) 
     system('git push --all origin')
     system('git checkout real-master')
-
