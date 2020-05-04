@@ -1,4 +1,5 @@
 from os import system
+from subprocess import check_output
 
 
 if __name__ == '__main__':
@@ -9,4 +10,9 @@ if __name__ == '__main__':
             n.seek(0)
             n.write(o.read().replace('href="https://parkayun.kr/public/"', 'href="https://parkayun.kr/"'))
             n.truncate()
+    system('git add .')
+    system('git commit -m "%s"' % input('commit message: '))
+    git_hash = check_output(['git', 'rev-parse', 'HEAD']).decode()
+    system('git checkout %s public/' % git_hash)
+    system('git push --all origin')
 
